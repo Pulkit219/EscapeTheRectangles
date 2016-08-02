@@ -37,7 +37,7 @@ Timer ti;
 		setFocusable(true);
 		pl = new player(this,200,200);
 		st = new Stage(this);
-		me = new ManageEnemy(15,this);
+		me = new ManageEnemy(23,this);
 		
 		ti = new Timer(10,this);
 		ti.start();
