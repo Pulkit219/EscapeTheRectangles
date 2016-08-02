@@ -35,7 +35,7 @@ Timer ti;
 		setPreferredSize(new Dimension(this.getWidth(), this.getHeight()));
 		addKeyListener(this);
 		setFocusable(true);
-		pl = new player(this,200,200);
+		pl = new player(this,200,470);
 		st = new Stage(this);
 		me = new ManageEnemy(23,this);
 		
