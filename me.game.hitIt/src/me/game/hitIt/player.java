@@ -13,7 +13,7 @@ private int w =16,h =16;
 	private int dy;
 	private HitIt instance;
 	private Rectangle ball;
- protected int lives = 35;
+ protected int lives = 20;
 
 	
 	

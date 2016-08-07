@@ -26,7 +26,7 @@ public class ManageEnemy {
 		int gtsize = enemies.size();
 		if(gtsize < number){
 		for(int i =0; i<number - gtsize ;i++){
-			enemies.add(new Enemy(rand.nextInt(583),rand.nextInt(100), instance));
+			enemies.add(new Enemy(rand.nextInt(583),rand.nextInt(150), instance));
 		}}
 		else if(gtsize> number){
 			for(int i =0; i < gtsize - number;i++){
